@@ -1,0 +1,10 @@
+/home/eleves/eclipse-workspace/gnotes3.1/src/main/java/com/saintsau/slam2/gnotes30/Application.java
+/home/eleves/eclipse-workspace/gnotes3.1/src/main/java/com/saintsau/slam2/gnotes30/controller/EtudiantController.java
+/home/eleves/eclipse-workspace/gnotes3.1/src/main/java/com/saintsau/slam2/gnotes30/entity/Etudiant.java
+/home/eleves/eclipse-workspace/gnotes3.1/src/main/java/com/saintsau/slam2/gnotes30/entity/Matiere.java
+/home/eleves/eclipse-workspace/gnotes3.1/src/main/java/com/saintsau/slam2/gnotes30/exeption/EtudiantNotFoundException.java
+/home/eleves/eclipse-workspace/gnotes3.1/src/main/java/com/saintsau/slam2/gnotes30/exeption/GlobalExceptionHandler.java
+/home/eleves/eclipse-workspace/gnotes3.1/src/main/java/com/saintsau/slam2/gnotes30/exeption/MatiereNotFoundException.java
+/home/eleves/eclipse-workspace/gnotes3.1/src/main/java/com/saintsau/slam2/gnotes30/jpaRepository/EtudiantRepository.java
+/home/eleves/eclipse-workspace/gnotes3.1/src/main/java/com/saintsau/slam2/gnotes30/jpaRepository/MatiereRepository.java
+/home/eleves/eclipse-workspace/gnotes3.1/src/main/java/com/saintsau/slam2/gnotes30/service/EtudiantService.java
