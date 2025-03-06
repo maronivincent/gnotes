@@ -1,0 +1,12 @@
+package com.saintsau.slam2.gnotes30;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Application {
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+        App.main(args);  // Launch JavaFX after Spring Boot starts
+    }
+}
