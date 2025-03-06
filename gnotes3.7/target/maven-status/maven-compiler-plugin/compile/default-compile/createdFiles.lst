@@ -1,0 +1,10 @@
+com/saintsau/slam2/gnotes30/jpaRepository/MatiereRepository.class
+com/saintsau/slam2/gnotes30/jpaRepository/EtudiantRepository.class
+com/saintsau/slam2/gnotes30/Application.class
+com/saintsau/slam2/gnotes30/entity/Matiere.class
+com/saintsau/slam2/gnotes30/controller/EtudiantController.class
+com/saintsau/slam2/gnotes30/service/EtudiantService.class
+com/saintsau/slam2/gnotes30/exeption/EtudiantNotFoundException.class
+com/saintsau/slam2/gnotes30/exeption/GlobalExceptionHandler.class
+com/saintsau/slam2/gnotes30/exeption/MatiereNotFoundException.class
+com/saintsau/slam2/gnotes30/entity/Etudiant.class
