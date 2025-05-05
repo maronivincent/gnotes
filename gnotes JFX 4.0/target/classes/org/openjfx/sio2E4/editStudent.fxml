@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+
+<StackPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.saintsau.slam2.gnotes30.controller.editStudentController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="323.0">
+         <children>
+            <Label style="-fx-font-size: 20px; -fx-text-fill: #333;" text="Ajouter un Élève" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0" />
+            
+            <!-- Name field -->
+            <TextField fx:id="nameField" promptText="Nom de l'élève" 
+                       AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="60.0" />
+            
+            <!-- Surname field -->
+            <TextField fx:id="surnameField" promptText="Prénom de l'élève" 
+                       AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="100.0" />
+            
+            <!-- Save button -->
+           <Button fx:id="saveButton" text="Enregistrer" onAction="#saveChanges"
+                    style="-fx-background-color: #C0425F; -fx-text-fill: WHITE;"
+                    AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="150.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

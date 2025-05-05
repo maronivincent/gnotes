@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/23.0.1"
+           xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="com.saintsau.slam2.gnotes30.controller.editControleController"
+           prefHeight="400.0" prefWidth="400.0">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <Label style="-fx-font-size: 20px; -fx-text-fill: #333;"
+                   text="Ajouter un Controle"
+                   AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0" />
+
+            <!-- ComboBox for Matiere -->
+            <ComboBox fx:id="intituleCombo"
+                      promptText="Choisir une matière"
+                      AnchorPane.leftAnchor="20.0"
+                      AnchorPane.rightAnchor="20.0"
+                      AnchorPane.topAnchor="70.0" />
+
+            <TextField fx:id="coefField"
+                       promptText="Coefficient"
+                       AnchorPane.leftAnchor="20.0"
+                       AnchorPane.rightAnchor="20.0"
+                       AnchorPane.topAnchor="120.0" />
+
+            <TextField fx:id="typeField"
+                       promptText="Type"
+                       AnchorPane.leftAnchor="20.0"
+                       AnchorPane.rightAnchor="20.0"
+                       AnchorPane.topAnchor="170.0" />
+
+            <TextField fx:id="noteField"
+                       promptText="Note"
+                       AnchorPane.leftAnchor="20.0"
+                       AnchorPane.rightAnchor="20.0"
+                       AnchorPane.topAnchor="220.0" />
+
+            <!-- ComboBox for Etudiant -->
+            <ComboBox fx:id="studentCombo"
+                      promptText="Choisir un étudiant"
+                      AnchorPane.leftAnchor="20.0"
+                      AnchorPane.rightAnchor="20.0"
+                      AnchorPane.topAnchor="270.0" />
+
+          <Button fx:id="saveButton" text="Enregistrer" onAction="#saveChanges"
+				      style="-fx-background-color: #C0425F; -fx-text-fill: white;"
+				      AnchorPane.leftAnchor="20.0"
+				      AnchorPane.topAnchor="320.0" />
+
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
